@@ -1,0 +1,62 @@
+
+  .espacio{
+    margin:0;
+    background: #111;
+    background: radial-gradient(circle at center, #111 0%, #000 100%);
+    height: 400px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 500px;
+}
+
+.p {
+  margin: 40px;
+  font-weight: 700;
+  text-align: center;
+  font-size: 20px;
+  font-family: Hack, sans-serif;
+  text-transform: uppercase;
+  background: linear-gradient(90deg, rgb(255, 251, 251), #fff, rgb(241, 241, 241));
+  letter-spacing: 5px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: shine 5s linear infinite;
+ 
+}
+
+@keyframes shine {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
+}
+
+.css{
+  display:flex;
+  justify-content:center;
+}
+.nav{
+  margin:0;
+  background-color: rgb(250, 250, 250);
+  width: 100%;
+  height: 40px;
+}
+
+.section{
+  display:flex;
+  margin: 40px;
+  
+}
+
+.img{
+  width: 200px;
+  height:200px;
+  border-radius: 40px;
+}
