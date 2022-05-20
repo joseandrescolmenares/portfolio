@@ -9,9 +9,11 @@
     justify-content: center;
     align-items: center;
     perspective: 500px;
+    height:100%;
 }
 
 .p {
+  display: block;
   margin: 40px;
   font-weight: 700;
   text-align: center;
@@ -52,6 +54,9 @@
 .section{
   display:flex;
   margin: 40px;
+  position: absolute;
+    bottom: 45%;
+
   
 }
 
@@ -59,4 +64,13 @@
   width: 200px;
   height:200px;
   border-radius: 40px;
+}
+
+.sub{
+  color: #fff;
+  margin: 20px;
+}
+
+.jose{
+  background-color: #fff;
 }

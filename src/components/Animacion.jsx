@@ -1,11 +1,14 @@
 import React from "react";
+
 import style from "./css/Animacion.module.css";
+// import yo from "./css/esteyo.png"
+import Proyecto from "./Proyecto"
 
 const Animacion = () => {
-  return (
+ 
+return ( 
     <div>
-
-      <div className={style.nav}></div>
+      {/* <div className={style.nav}></div> */}
       <div className={style.espacio}>
         <div className="container">
           <div className="trigger"></div>
@@ -528,10 +531,21 @@ const Animacion = () => {
           </div>
         </div>
       </div>
-      <div className={style.section}> 
-      <img className={style.img} src="https://i.pinimg.com/474x/19/84/7d/19847d069e323afded9ba524c766e505.jpg" alt="imagen" />
-     <div>  <p className={style.p}>Bienvenidos a mi POrtafolios</p></div> 
+      <div className={style.section}>
+        <img
+          className={style.img}
+          src="https://i.pinimg.com/originals/a5/a3/44/a5a3444e0a5bfc872efa334110fe3ed5.png"
+          alt="imagen"
+        />
+        <div>
+          <p className={style.p}>Hi, My Name is Jose</p>
+          <p className={style.sub}>Web Developer</p>
+        </div>
       </div>
+      <section> 
+      <Proyecto/>
+      </section>
+     
     </div>
   );
 };
