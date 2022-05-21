@@ -1,5 +1,26 @@
 .Proyecto{
     width: 100%;
     height: 100%;
-background-color: azure;
+display: grid;
+justify-content: center;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 500px;
+gap: 20px;
+}
+
+
+.Proye{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container{
+ height : 100vh;
+    background-color: azure;
+}
+
+.titulo{
+   text-align: center;
+ background-color: aliceblue;
 }

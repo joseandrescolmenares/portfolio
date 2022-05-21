@@ -542,7 +542,7 @@ return (
           <p className={style.sub}>Web Developer</p>
         </div>
       </div>
-      <section> 
+     <section> 
       <Proyecto/>
       </section>
      

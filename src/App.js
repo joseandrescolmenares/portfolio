@@ -10,10 +10,9 @@ function App() {
   }, 2000);
 
   return (
-    <div>
+    <> 
      {animacion ?  <Animacion/> :  <Landing/>  }
-     
-    </div>
+     </>
   );
 }
 
