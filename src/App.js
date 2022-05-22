@@ -1,17 +1,18 @@
-import Animacion from './components/Animacion.jsx'
+
 import { useState} from "react";
 import Landing from './components/Landig.jsx'
+import Principal from './components/Principal.jsx'
 import './App.css';
 
 function App() {
   const [animacion, setAnimacion] = useState(false)
   setTimeout(() => {
     setAnimacion(true)
-  }, 2000);
+  }, 3000);
 
   return (
     <> 
-     {animacion ?  <Animacion/> :  <Landing/>  }
+     {animacion ?  <Principal/> :  <Landing/>  }
      </>
   );
 }

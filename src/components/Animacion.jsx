@@ -1,14 +1,12 @@
 import React from "react";
 
 import style from "./css/Animacion.module.css";
-// import yo from "./css/esteyo.png"
-import Proyecto from "./Proyecto"
+
 
 const Animacion = () => {
  
 return ( 
     <div>
-      {/* <div className={style.nav}></div> */}
       <div className={style.espacio}>
         <div className="container">
           <div className="trigger"></div>
@@ -542,9 +540,6 @@ return (
           <p className={style.sub}>Web Developer</p>
         </div>
       </div>
-     <section> 
-      <Proyecto/>
-      </section>
      
     </div>
   );
