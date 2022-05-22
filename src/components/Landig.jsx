@@ -3,11 +3,13 @@ import s from "./css/Landing.module.css";
 
 const Landing = () => {
   return (
+    <div className={s.conte}>
     <div className={s.loadingscreen}>
  <div className={s.loadinganimation}>
    <img src="https://imgur.com/FsvEuM2.png" alt="logo" className={s.logo} />
    <div className={s.loadingbar}></div>
  </div>
+</div>
 </div>
   );
 };

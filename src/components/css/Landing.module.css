@@ -314,3 +314,9 @@ transform: rotate(10deg);
     left: 196px;
   }
 }
+
+.conte{
+  background-color: black;
+  width: 100%;
+  height:100vh;
+}

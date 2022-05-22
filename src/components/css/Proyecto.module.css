@@ -4,7 +4,7 @@
 display: grid;
 justify-content: center;
     grid-template-columns: repeat(auto-fit, minmax(100px, 3fr));
-    grid-template-rows: 100px 4fr;
+    grid-template-rows: 80px 4fr;
 gap: 20px;
 
 }
@@ -15,17 +15,19 @@ gap: 20px;
     justify-content: center;
     flex-direction: column;
     grid-row: 2;
-    margin: 20px;
+    margin: 10px;
 }
 
 .container{
+    width:100%;
  height : 100vh;
-    background-color: azure;
+    background-color: rgb(6 6 6);
 }
 
 .titulo{
+    color: azure;
    text-align: center;
- background-color: aliceblue;
 justify-content: center;
  grid-column: 2;
+ margin-top: 70px;
 }

@@ -539,6 +539,7 @@ return (
           <p className={style.p}>Hi, My Name is Jose</p>
           <p className={style.sub}>Web Developer</p>
         </div>
+      
       </div>
      
     </div>
