@@ -1,7 +1,7 @@
 import React from "react";
 import s from "./css/Proyecto.module.css";
 import ReactPlayer from "react-player";
-import Roll from 'react-reveal/Roll';
+
 import Zoom from "react-reveal/Zoom";
 import Wobble from 'react-reveal/Wobble';
 const Proyecto = () => {

@@ -3,6 +3,7 @@ import Animacion from "./Animacion";
 import Proyecto from "./Proyecto";
 import Carousell from "./Carousell";
 import Tecnologias from "./Tecnologias";
+import About from "./About";
 import Fade from "react-reveal/Fade";
 import s from "./css/Principal.module.css";
 const Principal = () => {
@@ -11,14 +12,11 @@ const Principal = () => {
       <Fade>
         <header>
           <Animacion />
-          <ul>
-               <li></li>
-               <li></li>
-               <li></li>
-           </ul>
-           
         </header>
       </Fade>
+      <section>
+        <About />
+      </section>
       <section className={s.Proye}>
         <Proyecto />
       </section>
@@ -26,10 +24,9 @@ const Principal = () => {
         <h1 className={s.titu}>Tenologias</h1>
         <Tecnologias />
       </section>
-      <section>
-        <h1 className={s.tituCa}>Certificados</h1>
+      <section className={s.CaroTitu}>
         <div className={s.caro}>
-          <Carousell />{" "}
+          <Carousell />
         </div>
       </section>
     </div>

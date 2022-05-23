@@ -1,6 +1,7 @@
 import React from "react";
 
 import style from "./css/Animacion.module.css";
+import Bounce from 'react-reveal/Bounce';
 
 
 const Animacion = () => {
@@ -529,6 +530,7 @@ return (
           </div>
         </div>
       </div>
+      <Bounce right> 
       <div className={style.section}>
         <img
           className={style.img}
@@ -539,9 +541,15 @@ return (
           <p className={style.p}>Hi, My Name is Jose</p>
           <p className={style.sub}>Web Developer</p>
         </div>
-      
+        
+           
       </div>
-     
+      </Bounce>
+      <ul>
+               <li></li>
+               <li></li>
+               <li></li>
+           </ul>
     </div>
   );
 };

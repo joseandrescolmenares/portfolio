@@ -1,0 +1,21 @@
+.conten{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+
+.contenedor{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 70vh;
+
+}
+
+
+.img{
+    border-radius: 70px;
+    padding: 40px;
+}

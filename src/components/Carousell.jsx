@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import s from "./css/Carousell.module.css"
 import {
   CarouselControl,
   Carousel,
@@ -18,16 +19,29 @@ function Carousell() {
   const items = [
     {
       src: require("./img/basico-de-javascript.png"),
-      altText: "Slide One",
     },
     {
-      src: "https://media.geeksforgeeks.org/wp-content/uploads/20210425122716/1-300x115.png",
-      altText: "Slide Two",
+      src: require("./img/cdd-lauyao.png"),
     },
     {
-      src: "https://media.geeksforgeeks.org/wp-content/uploads/20210425122739/2-300x115.png",
-      altText: "Slide One",
+      src: require("./img/css-grid-basico.png"),
     },
+    {
+      src: require("./img/definitivo.png"),
+    },
+    {
+      src: require("./img/fundamentosdesot.png"),
+    },
+    {
+      src: require("./img/htmlycss.png"),
+    },
+    { src: require("./img/maquetacione.png") },
+    { src: require("./img/prewor.png") },
+    { src: require("./img/programacione-estructurada.png")},
+    { src: require("./img/programacionOrientada.png")},
+    { src: require("./img/seguridad-informatica.png")},
+    { src: require("./img/seguridad.png")},
+    { src: require("./img/Sin título.png")}
   ];
 
   // Items array length
@@ -62,6 +76,7 @@ function Carousell() {
 
   return (
     <div>
+      <h1 className={s.tituCa}>Certificados</h1>
       <Carousel
         previous={previousButton}
         next={nextButton}
