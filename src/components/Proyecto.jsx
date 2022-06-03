@@ -1,54 +1,59 @@
 import React from "react";
 import s from "./css/Proyecto.module.css";
 import ReactPlayer from "react-player";
-
-import Zoom from "react-reveal/Zoom";
-import Wobble from 'react-reveal/Wobble';
+import Slide from 'react-reveal/Slide';
+import country from './img/proye country.png'
+import Reveal from 'react-reveal/Reveal';
+import  recipe from './img/proye recipes.png'
+import finder from './img/proyecto_finder.png'
 const Proyecto = () => {
   return (
     <div className={s.container}>
       <div className={s.Proyecto}>
-      <Wobble>
+      <Reveal effect="fadeInUp">
         <h1 className={s.titulo}>Proyecto</h1>
-        </Wobble>
-        <Zoom>
+        </Reveal>
+        <Slide left>
      
         <div className={s.Proye}>
           <img
             className={s.img}
-            src="https://1.bp.blogspot.com/-OONwIqLJAE0/YCH249Alt2I/AAAAAAAAIzQ/7moXO_wK3pMxyug7CTWW6qZWb05sV3MAACNcBGAsYHQ/s16000/trabajos-mas-demandados-en-brasil-en-2021.jpg"
+            src={country}
             alt="imf"
           />
-          {/* <ReactPlayer url="https://youtu.be/pLBuFxMYkx8 " width='auto'height='auto'/> */}
-          
+          <ReactPlayer url="https://youtu.be/pLBuFxMYkx8 " width='auto'height='350px'/>
+          <button>Repo</button>
+         <button><a href="https://client-rose-phi.vercel.app/">Demo</a></button>
           
         </div>
-        </Zoom>
+        </Slide>
      
-        <Zoom>
-     
+        
+        <Slide left>
         <div className={s.Proye}>
           {" "}
           <img
             className={s.img}
-            src="https://1.bp.blogspot.com/-OONwIqLJAE0/YCH249Alt2I/AAAAAAAAIzQ/7moXO_wK3pMxyug7CTWW6qZWb05sV3MAACNcBGAsYHQ/s16000/trabajos-mas-demandados-en-brasil-en-2021.jpg"
+            src={recipe}
             alt="imf"
           />
-           {/* <ReactPlayer url="https://youtu.be/pLBuFxMYkx8 " width='auto' height='auto'/> */}
-         
+           <ReactPlayer url="https://youtu.be/pLBuFxMYkx8 " width='auto' height='350px'/>
+           <button>Repo</button>
+         <button>Demo</button>
         </div>
-        </Zoom>
-        <Zoom>
+        </Slide>
+        <Slide left>
         <div className={s.Proye}>
           <img
             className={s.img}
-            src="https://1.bp.blogspot.com/-OONwIqLJAE0/YCH249Alt2I/AAAAAAAAIzQ/7moXO_wK3pMxyug7CTWW6qZWb05sV3MAACNcBGAsYHQ/s16000/trabajos-mas-demandados-en-brasil-en-2021.jpg"
+            src={finder}
             alt="img"
           />
-           {/* <ReactPlayer url="https://youtu.be/pLBuFxMYkx8 " width='auto' height='auto'/> */}
-        
+           <ReactPlayer url="https://youtu.be/pLBuFxMYkx8 " width='auto' height='350px'/>
+         <button>Repo</button>
+         <button>Demo</button>
         </div>
-        </Zoom>
+        </Slide>
       </div>
     </div>
   );

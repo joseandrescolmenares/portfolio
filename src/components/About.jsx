@@ -14,10 +14,13 @@ const About = () => {
           src={yo}
           alt="yo"
         />
+        <div className={style.info}> 
        <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis et quo alias voluptate? Delectus, pariatur omnis aperiam dolore perspiciatis sint. Ducimus perspiciatis, facere nobis eveniet reiciendis vitae rem quibusdam accusantium.</p>
+      <button className={style.boton}>DESCARGAR CV</button>
+       </div>
        </Fade>
       </div>
-     
+      
     </div>
   );
 };

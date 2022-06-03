@@ -19,3 +19,15 @@
     border-radius: 70px;
     padding: 40px;
 }
+.info{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    align-items: start;
+}
+.boton{
+    width: 200px;
+    height: 35px;
+    border-radius: 10px;
+    text-align: center;
+}
