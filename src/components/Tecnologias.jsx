@@ -27,6 +27,8 @@ function Word({ children, ...props }) {
   return <Text ref={ref} onPointerOver={over} onPointerOut={out} {...props} {...fontProps} children={children} />
 }
 
+let react = ['React', 'Javascript', 'node.js', 'sequalize.js', 'PostgresSQL', 'Express.js', 'Html', 'CSS'] 
+
 function Cloud({ count = 4, radius = 20 }) {
   // Create a count x count random words with spherical distribution
   const words = useMemo(() => {
@@ -34,16 +36,17 @@ function Cloud({ count = 4, radius = 20 }) {
     const spherical = new THREE.Spherical()
     const phiSpan = Math.PI / (count + 1)
     const thetaSpan = (Math.PI * 2) / count
+    console.log(thetaSpan)
     for (let i = 1; i < count + 1; i++)
      
-      for (let j = 0; j < count; j++) temp.push([new THREE.Vector3().setFromSpherical(spherical.set(radius, phiSpan * i, thetaSpan * j)),'React']) 
+      for (let j = 0; j < count; j++) temp.push([new THREE.Vector3().setFromSpherical(spherical.set(radius, phiSpan * i, thetaSpan * j)), react[j]]) 
       console.log(temp)
     return temp  
   
   }, [count, radius])
   
 
-
+console.log(words)
   return words.map(([pos, word], index) => <Word key={index} position={pos} children={word} />)
 }
 
