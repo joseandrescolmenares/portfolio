@@ -27,7 +27,7 @@ function Word({ children, ...props }) {
   return <Text ref={ref} onPointerOver={over} onPointerOut={out} {...props} {...fontProps} children={children} />
 }
 
-let react = ['React', 'Javascript', 'node.js', 'sequalize.js', 'PostgresSQL', 'Express.js', 'Html', 'CSS'] 
+let react = ['React', 'Html', 'CSS','Javascript', 'node.js', 'sequalize.js', 'PostgresSQL', 'Express.js','Javascript' ] 
 
 function Cloud({ count = 4, radius = 20 }) {
   // Create a count x count random words with spherical distribution
