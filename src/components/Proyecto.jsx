@@ -21,7 +21,7 @@ const Proyecto = () => {
             src={country}
             alt="imf"
           />
-          <ReactPlayer url="https://youtu.be/pLBuFxMYkx8 " width='auto'height='350px'/>
+          <ReactPlayer url="https://youtu.be/Q9du6uveAMs" width='auto'height='350px'/>
           <button>Repo</button>
          <button><a href="https://client-rose-phi.vercel.app/">Demo</a></button>
           
@@ -37,7 +37,7 @@ const Proyecto = () => {
             src={recipe}
             alt="imf"
           />
-           <ReactPlayer url="https://youtu.be/pLBuFxMYkx8 " width='auto' height='350px'/>
+           <ReactPlayer url="https://youtu.be/P6P7q6VXmiI " width='auto' height='350px'/>
            <button>Repo</button>
          <button>Demo</button>
         </div>

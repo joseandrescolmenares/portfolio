@@ -27,7 +27,7 @@ function Word({ children, ...props }) {
   return <Text ref={ref} onPointerOver={over} onPointerOut={out} {...props} {...fontProps} children={children} />
 }
 
-let react = ['React', 'Html', 'CSS','Javascript', 'node.js', 'sequalize.js', 'PostgresSQL', 'Express.js','Javascript' ] 
+let react = ['React','node.js',  'CSS','Javascript', 'Html', 'sequalize.js', 'Postgres', 'Express','Javascript', 'jose', 'loro' ] 
 
 function Cloud({ count = 4, radius = 20 }) {
   // Create a count x count random words with spherical distribution
@@ -52,10 +52,12 @@ console.log(words)
 
 export default function Tecnologias() {
   return (
+    <div className={s.container}>
     <Canvas className={s.Canvas} dpr={[1, 2]} camera={{ position: [0, 0, 35], fov: 90 }}>
       <fog attach="fog" args={['#202025', 0, 80]} />
       <Cloud count={8} radius={20} />
       <TrackballControls />
     </Canvas>
+    </div>
   )
 }
