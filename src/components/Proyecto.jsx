@@ -21,10 +21,11 @@ const Proyecto = () => {
             src={country}
             alt="imf"
           />
-          <ReactPlayer url="https://youtu.be/Q9du6uveAMs" width='auto'height='350px'/>
-          <button>Repo</button>
-         <button><a href="https://client-rose-phi.vercel.app/">Demo</a></button>
-          
+          <ReactPlayer url="https://youtu.be/Q9du6uveAMs" width='auto'height='300px'/>
+          <div className={s.botones}> 
+          <button className={s.demo}>Repo</button>
+         <button className={s.demo}><a href="https://client-rose-phi.vercel.app/">Demo</a></button>
+         </div>
         </div>
         </Slide>
      
@@ -37,9 +38,11 @@ const Proyecto = () => {
             src={recipe}
             alt="imf"
           />
-           <ReactPlayer url="https://youtu.be/P6P7q6VXmiI " width='auto' height='350px'/>
-           <button>Repo</button>
-         <button>Demo</button>
+           <ReactPlayer url="https://youtu.be/P6P7q6VXmiI " width='auto' height='300px'/>
+           <div className={s.botones}> 
+           <button className={s.demo}>Repo</button>
+         <button className={s.demo}>Demo</button>
+         </div>
         </div>
         </Slide>
         <Slide left>
@@ -49,9 +52,11 @@ const Proyecto = () => {
             src={finder}
             alt="img"
           />
-           <ReactPlayer url="https://youtu.be/pLBuFxMYkx8 " width='auto' height='350px'/>
-         <button>Repo</button>
-         <button>Demo</button>
+           <ReactPlayer url="https://youtu.be/pLBuFxMYkx8 " width='auto' height='300px'/>
+           <div className={s.botones}> 
+         <button className={s.demo}>Repo</button>
+         <button className={s.demo}>Demo</button>
+         </div>
         </div>
         </Slide>
       </div>

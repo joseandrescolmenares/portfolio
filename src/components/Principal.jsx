@@ -21,8 +21,10 @@ const Principal = () => {
         <Proyecto />
       </section>
       <section className={s.tecno}>
-        <h1 className={s.titu}>Tenologias</h1>
+      
+       
         <Tecnologias />
+       
       </section>
       <section className={s.CaroTitu}>
         <div className={s.caro}>

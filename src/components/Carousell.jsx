@@ -69,7 +69,7 @@ function Carousell() {
         onExited={() => setAnimating(false)}
         onExiting={() => setAnimating(true)}
       >
-        <img src={item.src} alt={item.altText} width="800px" height="600px" />
+        <img src={item.src} alt={item.altText} className={s.img} />
       </CarouselItem>
     );
   });
@@ -92,9 +92,10 @@ function Carousell() {
         />
         {carouselItemData}
         <CarouselControl
+        className={s.next}
           directionText="Prev"
           direction="prev"
-          onClickHandler={previousButton}
+         onClickHandler={previousButton}
         />
         <CarouselControl
           directionText="Next"

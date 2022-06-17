@@ -1,5 +1,19 @@
 .tituCa{
     color: white;
   text-align: center;
-  margin: 40px;
+  margin-bottom: 30px;
+}
+.img{
+  width:800px;
+   height:600px;
+}
+
+
+@media  screen and (max-height: 712px) {
+  .img{
+    height: 480px;
+  }
+  .tituCa{
+   margin-top: 40px;
+  }
 }

@@ -4,13 +4,27 @@
  height: 100vh;
  text-align: center;
 background-color: #060606;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+
 
 }
 
-.titu{
-    color: azure;
-    padding-top: 20px;
+
+@media screen and (max-height: 712px) {
+  .centrar{
+    height:90%;
+    margin-top:30px;
+  }
+.tecno{
+    padding-top:70px;
 }
+ 
+}
+
+
 
 .caro{
     display: flex;

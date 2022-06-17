@@ -2,9 +2,15 @@
     width:200px;
     height: 200px;
     background-color:rgb(0, 0, 0);
+    border-radius:30px;
 }
 
 .container{
-    width:90%;
+    width:75%;
     height:90%;
+    border-radius: 30px;;
+}
+.titu{
+    margin-bottom: 30px;
+    color: aliceblue;
 }
