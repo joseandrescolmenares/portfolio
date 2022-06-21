@@ -15,8 +15,8 @@ const About = () => {
           alt="yo"
         />
         <div className={style.info}> 
-       <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis et quo alias voluptate? Delectus, pariatur omnis aperiam dolore perspiciatis sint. Ducimus perspiciatis, facere nobis eveniet reiciendis vitae rem quibusdam accusantium.</p>
-      <button className={style.boton}>DESCARGAR CV</button>
+       <p>👋 hello! My name is Jose, I am a young web development student looking to get into technology. I like learning new technologies, being part of communities and being curious about cryptocurrencies.</p>
+      <button className={style.boton}>Ver cv</button>
        </div>
        </Fade>
       </div>

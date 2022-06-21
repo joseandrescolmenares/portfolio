@@ -30,4 +30,21 @@
     height: 35px;
     border-radius: 10px;
     text-align: center;
+    border:none;
+    transition:2s;
 }
+.boton:hover{
+    background-color:rgb(63, 62, 62);
+    color: #fff;
+}
+
+@media  screen and (max-height: 712px) {
+    .conten{
+      width:40%;
+    }
+    .img{
+        height:400px
+    }
+    
+  }
+  

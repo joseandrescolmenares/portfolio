@@ -23,8 +23,8 @@ const Proyecto = () => {
           />
           <ReactPlayer url="https://youtu.be/Q9du6uveAMs" width='auto'height='300px'/>
           <div className={s.botones}> 
-          <button className={s.demo}>Repo</button>
-         <button className={s.demo}><a href="https://client-rose-phi.vercel.app/">Demo</a></button>
+           <a className={s.demo} href="https://github.com/joseandrescolmenares/PI-Countries-main"><img className={s.icon} src="https://img.icons8.com/fluency/344/github.png"/></a>
+         <a className={s.demo} href="https://client-rose-phi.vercel.app/" target="_blank" rel="noopener noreferrer"><img className={s.icon} src="https://img.icons8.com/emoji/344/link-emoji.png"/></a>
          </div>
         </div>
         </Slide>
@@ -40,8 +40,8 @@ const Proyecto = () => {
           />
            <ReactPlayer url="https://youtu.be/P6P7q6VXmiI " width='auto' height='300px'/>
            <div className={s.botones}> 
-           <button className={s.demo}>Repo</button>
-         <button className={s.demo}>Demo</button>
+            <a className={s.demo} href="https://github.com/joseandrescolmenares/food-pi" target="_blank" rel="noopener noreferrer"><img className={s.icon} src="https://img.icons8.com/fluency/344/github.png"/></a>
+         <a className={s.demo} target="_blank" rel="noopener noreferrer"><img className={s.icon} src="https://img.icons8.com/emoji/344/link-emoji.png"/></a>
          </div>
         </div>
         </Slide>
@@ -52,10 +52,10 @@ const Proyecto = () => {
             src={finder}
             alt="img"
           />
-           <ReactPlayer url="https://youtu.be/pLBuFxMYkx8 " width='auto' height='300px'/>
+           <ReactPlayer url="https://youtu.be/50a_X2Gx3PM" width='auto' height='300px'/>
            <div className={s.botones}> 
-         <button className={s.demo}>Repo</button>
-         <button className={s.demo}>Demo</button>
+         <a className={s.demo} href="https://github.com/AlejandroColina/proyectoFinal" target="_blank" rel="noopener noreferrer"><img className={s.icon} src="https://img.icons8.com/fluency/344/github.png"/></a>
+         <a className={s.demo} href="https://finder-app-omega.vercel.app/" target="_blank" rel="noopener noreferrer"><img className={s.icon} src="https://img.icons8.com/emoji/344/link-emoji.png"/></a>
          </div>
         </div>
         </Slide>
