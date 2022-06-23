@@ -541,9 +541,9 @@ return (
           <p className={style.p}>Hi, My Name is Jose</p>
           <p className={style.sub}>Web Developer</p>
           <div className={style.centrar}> 
-          <a  href="https://twitter.com/Joseee_andresss" target="_blank" rel="noopener noreferrer"><img className={style.iconos} src='https://img.icons8.com/color/344/twitter-squared.png'/></a>
-          <a  href="https://github.com/joseandrescolmenares" target="_blank" rel="noopener noreferrer"><img className={style.iconos} src='https://img.icons8.com/fluency/344/github.png'/></a>
-          <a  href='https://www.linkedin.com/in/jose-colmenares-480074233/' target="_blank" rel="noopener noreferrer"><img className={style.iconos} src='https://img.icons8.com/color/344/linkedin.png'/></a>
+          <a  href="https://twitter.com/Joseee_andresss" target="_blank" rel="noopener noreferrer"><img className={style.iconos} src='https://img.icons8.com/ios-filled/344/twitter-squared.png'/></a>
+          <a  href="https://github.com/joseandrescolmenares" target="_blank" rel="noopener noreferrer"><img className={style.iconos} src='https://img.icons8.com/ios-glyphs/344/github.png'/></a>
+          <a  href='https://www.linkedin.com/in/jose-colmenares-480074233/' target="_blank" rel="noopener noreferrer"><img className={style.iconos} src='https://img.icons8.com/ios-filled/344/linkedin.png'/></a>
           </div>
         </div>
         

@@ -11,7 +11,7 @@ const Proyecto = () => {
     <div className={s.container}>
       <div className={s.Proyecto}>
       <Reveal effect="fadeInUp">
-        <h1 className={s.titulo}>Proyecto</h1>
+        <h1 className={s.titulo}>Proyectos</h1>
         </Reveal>
         <Slide left>
      
@@ -21,7 +21,7 @@ const Proyecto = () => {
             src={country}
             alt="imf"
           />
-          <ReactPlayer url="https://youtu.be/Q9du6uveAMs" width='auto'height='300px'/>
+          <ReactPlayer url="https://youtu.be/Q9du6uveAMs" width='auto'/>
           <div className={s.botones}> 
            <a className={s.demo} href="https://github.com/joseandrescolmenares/PI-Countries-main"><img className={s.icon} src="https://img.icons8.com/fluency/344/github.png"/></a>
          <a className={s.demo} href="https://client-rose-phi.vercel.app/" target="_blank" rel="noopener noreferrer"><img className={s.icon} src="https://img.icons8.com/emoji/344/link-emoji.png"/></a>
@@ -38,7 +38,7 @@ const Proyecto = () => {
             src={recipe}
             alt="imf"
           />
-           <ReactPlayer url="https://youtu.be/P6P7q6VXmiI " width='auto' height='300px'/>
+           <ReactPlayer url="https://youtu.be/P6P7q6VXmiI " width='auto'/>
            <div className={s.botones}> 
             <a className={s.demo} href="https://github.com/joseandrescolmenares/food-pi" target="_blank" rel="noopener noreferrer"><img className={s.icon} src="https://img.icons8.com/fluency/344/github.png"/></a>
          <a className={s.demo} target="_blank" rel="noopener noreferrer"><img className={s.icon} src="https://img.icons8.com/emoji/344/link-emoji.png"/></a>
@@ -52,7 +52,7 @@ const Proyecto = () => {
             src={finder}
             alt="img"
           />
-           <ReactPlayer url="https://youtu.be/50a_X2Gx3PM" width='auto' height='300px'/>
+           <ReactPlayer url="https://youtu.be/50a_X2Gx3PM" width='auto'/>
            <div className={s.botones}> 
          <a className={s.demo} href="https://github.com/AlejandroColina/proyectoFinal" target="_blank" rel="noopener noreferrer"><img className={s.icon} src="https://img.icons8.com/fluency/344/github.png"/></a>
          <a className={s.demo} href="https://finder-app-omega.vercel.app/" target="_blank" rel="noopener noreferrer"><img className={s.icon} src="https://img.icons8.com/emoji/344/link-emoji.png"/></a>

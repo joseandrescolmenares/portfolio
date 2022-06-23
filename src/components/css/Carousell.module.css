@@ -18,3 +18,11 @@
    margin-top: 40px;
   }
 }
+
+@media screen and (max-width: 710px){
+   .img{
+    width:450px;
+    height:400px;
+   }
+}
+

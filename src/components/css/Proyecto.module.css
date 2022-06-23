@@ -9,6 +9,17 @@ gap: 5px;
 margin-bottom: 40px;
 
 }
+
+.img{
+  margin-bottom:30px;
+  
+}
+
+/* .video{
+  width:200px;
+  height:300px;
+} */
+
 @media  screen and (max-height: 712px) {
   .Proyecto{
     height:50%;
@@ -21,12 +32,32 @@ margin-bottom: 40px;
   }
   .titulo{ display:grid;
     align-self: flex-start;
- 
+  
   }
   .Proye{
     height:570px;
   }
+
+  
  
+}
+
+@media screen and (max-width: 710px){
+ 
+
+  .Proye{
+    height:500px;
+    width:200px;
+    gap:20px;
+    justify-content: center;
+  }
+  
+
+  .img{
+    width: auto;
+  }
+
+  
 }
 
 
@@ -56,10 +87,7 @@ justify-content: center;
  margin-top: 28px;
 }
 
-.img{
-   margin-bottom:30px;
-   
-}
+
 
 .demo{
     

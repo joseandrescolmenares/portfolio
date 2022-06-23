@@ -77,8 +77,11 @@
 
 .iconos{
   height: 40px;
-  margin: 3px;
+  margin: 5px;
+  background-color: #fff;
+  height:20px;
+  border-radius: 3px;
 }
 .centrar{
-  margin:10px 10px 30px 30px;
+  margin:10px 10px 30px 40px;
 }
