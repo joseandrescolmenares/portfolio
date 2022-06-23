@@ -25,6 +25,7 @@ const Proyecto = () => {
           <div className={s.botones}> 
            <a className={s.demo} href="https://github.com/joseandrescolmenares/PI-Countries-main"><img className={s.icon} src="https://img.icons8.com/fluency/344/github.png"/></a>
          <a className={s.demo} href="https://client-rose-phi.vercel.app/" target="_blank" rel="noopener noreferrer"><img className={s.icon} src="https://img.icons8.com/emoji/344/link-emoji.png"/></a>
+       
          </div>
         </div>
         </Slide>

@@ -11,8 +11,8 @@ align-items: center;
 
 .Proye{
     width: 100%;
-    height: 100vh;
-    
+    height: 1000px;
+    background-color:rgb(6 6 6);
 }
 
 
@@ -46,7 +46,7 @@ align-items: center;
 }
  
 }
-
+/* 
 
 @media screen and (max-height: 1450px){
     .centrar{
@@ -66,7 +66,7 @@ align-items: center;
     .caro{
         height:1000px;
     }
-}
+} */
 
 
 
