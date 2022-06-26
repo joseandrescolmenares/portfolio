@@ -15,8 +15,8 @@ const About = () => {
           alt="yo"
         />
         <div className={style.info}> 
-       <p>👋 hello! My name is Jose, I am a young web development student looking to get into technology. I like learning new technologies, being part of communities and being curious about cryptocurrencies.</p>
-      <button className={style.boton}>Ver cv</button>
+       <p className={style.parrafo}>👋 hello! My name is Jose, I am a young web development student looking to get into technology. I like learning new technologies, being part of communities and being curious about cryptocurrencies.</p>
+      <a className={style.boton} href='https://drive.google.com/file/d/1XLW_gth9XU0hbb_70QwiYPmp7pCA1aco/view?usp=sharing' target="_blank" rel="noopener noreferrer">ver CV</a>
        </div>
        </Fade>
       </div>

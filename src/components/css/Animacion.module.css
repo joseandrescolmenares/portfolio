@@ -85,3 +85,27 @@
 .centrar{
   margin:10px 10px 30px 40px;
 }
+
+
+.abrir{
+  background-color:rgb(255, 255, 255);
+  position:absolute;
+  top:80%;
+}
+@media  screen and (max-width: 450px) {
+  .img{
+   display:none;
+  }
+  .section{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+  }
+  .cen{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+  }
+}

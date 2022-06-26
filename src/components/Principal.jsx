@@ -14,17 +14,20 @@ const Principal = () => {
           <Animacion />
         </header>
       </Fade>
-      <section>
+      <section className={s.About}>
         <About />
       </section>
       <section className={s.Proye}>
+        <h1 className={s.Title}>Proyectos</h1>
         <Proyecto />
       </section>
       <section className={s.tecno}>
         <Tecnologias />
       </section>
       <section className={s.CaroTitu}>
+        
         <div className={s.caro}>
+          <h1 className={s.h1}>Certificados</h1>
           <Carousell />
         </div>
       </section>
@@ -50,7 +53,7 @@ const Principal = () => {
           </a>
         </div>
         <div className={s.center}>
-          <button className={s.cv}>Ver cv</button>
+          <a href='https://drive.google.com/file/d/1XLW_gth9XU0hbb_70QwiYPmp7pCA1aco/view?usp=sharing' target="_blank" rel="noopener noreferrer" className={s.cv}>Ver cv</a>
         </div>
       </footer>
     </div>

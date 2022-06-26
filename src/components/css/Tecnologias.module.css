@@ -17,4 +17,12 @@
 .titu{
     margin-bottom: 30px;
     color: aliceblue;
+    font-size: 1.8em;
+
+}
+
+@media  screen and (max-width: 550px) {
+    .container{
+        height:300px;
+    }
 }

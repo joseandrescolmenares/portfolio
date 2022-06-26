@@ -1,12 +1,21 @@
 import React from "react";
-
+import { useState } from "react";
 import style from "./css/Animacion.module.css";
-import Bounce from 'react-reveal/Bounce';
-
-
+import Bounce from "react-reveal/Bounce";
+import { Modal } from "@material-ui/core";
+import Form  from './Form'
 const Animacion = () => {
- 
-return ( 
+  const [modal, setModal] = useState(false);
+  const abrirCerrarModal = () => {
+    setModal(!modal);
+  };
+  const body = (
+    <div className={style.modal}>
+      <Form />
+    </div>
+  );
+
+  return (
     <div>
       <div className={style.espacio}>
         <div className="container">
@@ -530,31 +539,64 @@ return (
           </div>
         </div>
       </div>
-      <Bounce right> 
-      <div className={style.section}>
-        <img
-          className={style.img}
-          src="https://i.pinimg.com/originals/a5/a3/44/a5a3444e0a5bfc872efa334110fe3ed5.png"
-          alt="imagen"
-        />
-        <div>
-          <p className={style.p}>Hi, My Name is Jose</p>
-          <p className={style.sub}>Web Developer</p>
-          <div className={style.centrar}> 
-          <a  href="https://twitter.com/Joseee_andresss" target="_blank" rel="noopener noreferrer"><img className={style.iconos} src='https://img.icons8.com/ios-filled/344/twitter-squared.png'/></a>
-          <a  href="https://github.com/joseandrescolmenares" target="_blank" rel="noopener noreferrer"><img className={style.iconos} src='https://img.icons8.com/ios-glyphs/344/github.png'/></a>
-          <a  href='https://www.linkedin.com/in/jose-colmenares-480074233/' target="_blank" rel="noopener noreferrer"><img className={style.iconos} src='https://img.icons8.com/ios-filled/344/linkedin.png'/></a>
+      <Bounce right>
+        <div className={style.section}>
+          <img
+            className={style.img}
+            src="https://i.pinimg.com/originals/a5/a3/44/a5a3444e0a5bfc872efa334110fe3ed5.png"
+            alt="imagen"
+          />
+          <div className={style.cen}>
+            <p className={style.p}>Hi, My Name is Jose</p>
+            <p className={style.sub}>Web Developer</p>
+            <div className={style.centrar}>
+              <a
+                href="https://twitter.com/Joseee_andresss"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className={style.iconos}
+                  src="https://img.icons8.com/ios-filled/344/twitter-squared.png"
+                  alt='icono'
+                />
+              </a>
+              <a
+                href="https://github.com/joseandrescolmenares"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className={style.iconos}
+                  src="https://img.icons8.com/ios-glyphs/344/github.png"
+                  alt='icono'
+                />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/jose-colmenares-480074233/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  className={style.iconos}
+                  src="https://img.icons8.com/ios-filled/344/linkedin.png"
+                  alt='icono'
+                />
+              </a>
+            </div>
           </div>
+
+          <Modal open={modal} onClose={abrirCerrarModal}>
+            {body}
+          </Modal>
         </div>
-        
-           
-      </div>
+        <button className={style.abrir} onClick={abrirCerrarModal}>abrir</button>
       </Bounce>
       <ul>
-               <li></li>
-               <li></li>
-               <li></li>
-           </ul>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
     </div>
   );
 };

@@ -1,28 +1,23 @@
-.tituCa{
-    color: white;
-  text-align: center;
-  margin-bottom: 30px;
+
+
+.caro{
+  width:700px;
+  height:450px;
 }
+
+
 .img{
-  width:800px;
-   height:600px;
+  width: 700px;
+  height: 460px;
 }
 
-
-@media  screen and (max-height: 712px) {
+@media  screen and (max-width: 550px) {
+  .caro{
+    width:300px;
+    height: 300px;
+  }
   .img{
-    height: 440px;
-    width:700px;
-  }
-  .tituCa{
-   margin-top: 40px;
+ width: 300px;
+ height:300px;
   }
 }
-
-@media screen and (max-width: 710px){
-   .img{
-    width:450px;
-    height:400px;
-   }
-}
-

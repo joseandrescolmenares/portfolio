@@ -11,62 +11,43 @@ align-items: center;
 
 .Proye{
     width: 100%;
-    height: 1000px;
     background-color:rgb(6 6 6);
+}
+.Title{
+    text-align: center;
+    padding:50px;
+    color:white;
+    font-size: 1.8em;
 }
 
 
 
 .caro{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 100vh;
     background-color: rgb(6 6 6);
 }
+.h1{
+    color: white;
+    margin: 50px;
+    font-size: 1.8em;
+}
 
 
-@media screen and (max-height: 712px) {
-  .centrar{
-    height:90%;
-    margin-top:30px;
-  }
-.tecno{
-    padding-top:70px;
+
+ 
+.About{
+   display: flex;
+   justify-content:center;
    
 }
 
-.Proye{
-    height:700px;
-    background-color: rgb(6 6 6);
-}
-.caro{
-    height:800px;
-}
- 
-}
-/* 
 
-@media screen and (max-height: 1450px){
-    .centrar{
-        height:90%;
-        margin-top:30px;
-      }
-    .tecno{
-        padding-top:70px;
-        
-       
-    }
-    
-    .Proye{
-        height:900px;
-        background-color: rgb(6 6 6);
-    }
-    .caro{
-        height:1000px;
-    }
-} */
+
 
 
 
@@ -124,7 +105,7 @@ ul li:nth-of-type(3){
 }
 
 .contenedor{
-    background-color: black;
+    background-color: rgb(6 6 6);;
 }
 .CaroTitu{
 background-color:#060606;
@@ -158,6 +139,16 @@ background-color:#060606;
     width:130px;
     height:35px;
     border-radius: 15px;
+    text-decoration: none;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+
+}
+.cv:hover{
+    transition: 1s;
+    color:#f1f1f1;
+    background-color:#333;
 }
 
 @media screen and (max-width: 710px){
@@ -171,4 +162,22 @@ background-color:#060606;
   .icono{
   margin:0px;
   }
+}
+
+@media  screen and (max-width: 650px) {
+    .Proye{
+   height:1200px
+    }
+    .About{
+      height:1350px;
+      background-color: #060606;
+    }
+    .Title{
+        position: absolute;
+        top: 200%;
+        left:20%;
+    }
+    .tecno{
+        height: 400px;
+    }
 }
