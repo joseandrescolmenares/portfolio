@@ -4,6 +4,7 @@ import style from "./css/Animacion.module.css";
 import Bounce from "react-reveal/Bounce";
 import { Modal } from "@material-ui/core";
 import Form  from './Form'
+
 const Animacion = () => {
   const [modal, setModal] = useState(false);
   const abrirCerrarModal = () => {
@@ -11,7 +12,7 @@ const Animacion = () => {
   };
   const body = (
     <div >
-      <Form />
+      <Form abrirCerrarModal={abrirCerrarModal} />
     </div>
   );
 
