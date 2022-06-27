@@ -1,0 +1,27 @@
+
+.container{
+background-color: #fff;
+border-radius: 20px;
+}
+
+.titu{
+color: rgb(0, 0, 0);
+text-align: center;
+padding-top: 20px;
+}
+
+.Form{
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items:center;
+width:500px;
+height:500px;
+
+}
+
+.input{
+    width:300px;
+    height: 100px;
+    
+}

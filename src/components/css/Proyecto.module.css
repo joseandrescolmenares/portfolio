@@ -60,7 +60,7 @@ align-items: center;
 }
 
 .youtube:hover{
-  padding: 5px 10px;
+  padding: 3px 4px;
   overflow:hidden;
   transition:1s;
 }
@@ -90,7 +90,7 @@ align-items: center;
 }
 
 .icon:hover{
-    padding: 5px 10px;
+    padding: 3px 4px;
     overflow:hidden;
     transition:1s;
   }

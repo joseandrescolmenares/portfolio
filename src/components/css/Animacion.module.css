@@ -88,10 +88,18 @@
 
 
 .abrir{
-  background-color:rgb(255, 255, 255);
-  position:absolute;
+  
+  position:fixed;
   top:80%;
+  left:2%;
+ cursor: pointer;
 }
+
+.cohete{
+  width: 60px;
+  height: 60px;
+}
+
 @media  screen and (max-width: 450px) {
   .img{
    display:none;
@@ -108,4 +116,11 @@
     justify-content:center;
     align-items:center;
   }
+}
+
+.modal{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  backdrop-filter: blur(2px);
 }

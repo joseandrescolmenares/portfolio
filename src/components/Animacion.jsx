@@ -10,7 +10,7 @@ const Animacion = () => {
     setModal(!modal);
   };
   const body = (
-    <div className={style.modal}>
+    <div >
       <Form />
     </div>
   );
@@ -586,11 +586,11 @@ const Animacion = () => {
             </div>
           </div>
 
-          <Modal open={modal} onClose={abrirCerrarModal}>
+          <Modal className={style.modal} open={modal} onClose={abrirCerrarModal}>
             {body}
           </Modal>
         </div>
-        <button className={style.abrir} onClick={abrirCerrarModal}>abrir</button>
+        <a className={style.abrir} onClick={abrirCerrarModal}><img className={style.cohete} src="https://img.icons8.com/color-glass/344/launched-rocket.png"/></a>
       </Bounce>
       <ul>
         <li></li>
