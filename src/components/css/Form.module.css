@@ -25,3 +25,14 @@ height:500px;
     height: 100px;
     
 }
+
+.botonForm{
+    width: 140px;
+    height: 30px;
+    margin: 20px;
+    color: #fff;
+    background-color: #2880ce;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    cursor: pointer;
+}

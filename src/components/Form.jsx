@@ -67,7 +67,7 @@ const Form = ({ abrirCerrarModal }) => {
           />
         </div>
 
-        <button onClick={notificaciones}>Enviar</button>
+        <button className={s.botonForm} onClick={notificaciones}>Enviar</button>
       </form>
       <ToastContainer />
     </div>
