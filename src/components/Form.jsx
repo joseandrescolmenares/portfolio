@@ -6,6 +6,7 @@ import {ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Noti from './Noti'
 const Form = ({ abrirCerrarModal }) => {
+  
   function notificaciones() {
     toast(<Noti/>, {
         position: "top-center",
@@ -67,7 +68,7 @@ const Form = ({ abrirCerrarModal }) => {
           />
         </div>
 
-        <button className={s.botonForm} onClick={() =>notificaciones()}>Enviar</button>
+        <button className={s.botonForm} onClick={notificaciones}>Enviar</button>
       </form>
       <ToastContainer/>
     </div>
