@@ -5,6 +5,7 @@ import Bounce from "react-reveal/Bounce";
 import { Modal } from "@material-ui/core";
 import Form  from './Form'
 
+
 const Animacion = () => {
   const [modal, setModal] = useState(false);
   const abrirCerrarModal = () => {
@@ -16,8 +17,12 @@ const Animacion = () => {
     </div>
   );
 
+ 
+
+
   return (
     <div>
+       
       <div className={style.espacio}>
         <div className="container">
           <div className="trigger"></div>
@@ -591,13 +596,15 @@ const Animacion = () => {
             {body}
           </Modal>
         </div>
-        <a className={style.abrir} onClick={abrirCerrarModal}><img className={style.cohete} src="https://img.icons8.com/color-glass/344/launched-rocket.png"/></a>
+        <div className={style.abrir}><h1 className={style.h1}>Feedback</h1> <a  onClick={abrirCerrarModal}><img className={style.cohete} src="https://img.icons8.com/color-glass/344/launched-rocket.png" alt='img'/></a> </div>
+       
       </Bounce>
       <ul>
         <li></li>
         <li></li>
         <li></li>
       </ul>
+     
     </div>
   );
 };

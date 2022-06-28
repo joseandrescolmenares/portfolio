@@ -20,6 +20,7 @@ import masGrid from "./img/mas grid.png";
 import seguridad from "./img/mas seguridad.png";
 import poo from "./img/orientada a objeto.png";
 import masSeguridad from "./img/seguridad.png";
+import henry from './img/titulo.png'
 
 function Carousell() {
 
@@ -38,6 +39,9 @@ function Carousell() {
       onSlideChange={() => console.log("slide change")}
       className={s.caro}
     >
+        <SwiperSlide>
+        {<img src={henry} alt="certificado" className={s.img} />}
+      </SwiperSlide>
       <SwiperSlide>
         {<img src={aprender} alt="certificado" className={s.img} />}
       </SwiperSlide>
@@ -77,6 +81,7 @@ function Carousell() {
       <SwiperSlide>
         {<img src={masSeguridad} alt="certificado" className={s.img} />}
       </SwiperSlide>
+     
       .............
     </Swiper>
   );

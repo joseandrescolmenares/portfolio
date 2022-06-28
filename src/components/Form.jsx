@@ -2,7 +2,7 @@ import React from "react";
 import s from "./css/Form.module.css";
 import { TextField } from "@material-ui/core";
 import emailjs from "@emailjs/browser";
-import { ToastContainer, toast } from "react-toastify";
+import {ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Noti from './Noti'
 const Form = ({ abrirCerrarModal }) => {
@@ -16,9 +16,9 @@ const Form = ({ abrirCerrarModal }) => {
         draggable: true,
         progress: undefined,
     });
-    setTimeout(() =>{
-        abrirCerrarModal()
-    }, 4000)
+   
+      abrirCerrarModal()
+  
   }
 
   const sendEmail = (e) => {
@@ -67,9 +67,9 @@ const Form = ({ abrirCerrarModal }) => {
           />
         </div>
 
-        <button className={s.botonForm} onClick={notificaciones}>Enviar</button>
+        <button className={s.botonForm} onClick={() =>notificaciones()}>Enviar</button>
       </form>
-      <ToastContainer />
+      <ToastContainer/>
     </div>
   );
 };
