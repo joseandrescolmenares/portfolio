@@ -186,3 +186,32 @@ padding-bottom: 30px;
         height: 400px;
     }
 }
+
+@media screen and (max-width: 1250px){
+    .tecno{
+        margin-top:390px;
+    }
+    .Proye{
+        margin-top: 390px;
+    
+
+    }
+    .Title{
+        position: absolute;
+        top: 195%;
+        left:40%;
+    }
+}
+
+@media  screen and (max-width: 450px) {
+    .Title{
+        position: absolute;
+        top: 200%;
+        left:18%;
+    }
+    .Proye{
+        margin-top: 130px;
+    
+
+    }
+}
