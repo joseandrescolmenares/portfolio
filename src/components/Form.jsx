@@ -7,8 +7,18 @@ import "react-toastify/dist/ReactToastify.css";
 import Noti from './Noti'
 const Form = ({ abrirCerrarModal }) => {
   
-  function notificaciones() {
-    toast(<Noti/>, {
+  
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_yquthlf",
+        "template_u8se0t9",
+        e.target,
+        "2I82ak1lECf_Cl7Uh"
+      )
+      .then(toast(<Noti/>, {
         position: "top-center",
         autoClose: 4000,
         hideProgressBar: false,
@@ -16,23 +26,9 @@ const Form = ({ abrirCerrarModal }) => {
         pauseOnHover: true,
         draggable: true,
         progress: undefined,
-    });
-   
-      abrirCerrarModal()
-  
-  }
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-    emailjs
-      .sendForm(
-        "service_yquthlf",
-        "template_nwwjef6",
-        e.target,
-        "2I82ak1lECf_Cl7Uh"
-      )
-      .then((response) => console.log(response))
-      .catch((error) => console.log(error));
+        
+    }),abrirCerrarModal() )
+      .catch(error => (console.log(error)));
   };
 
   return (
@@ -63,12 +59,12 @@ const Form = ({ abrirCerrarModal }) => {
             variant="filled"
             label="Feedback"
             multiline
-            rows="3"
+            minRows="3"
             name="user_message"
           />
         </div>
 
-        <button className={s.botonForm} onClick={notificaciones}>Enviar</button>
+        <button className={s.botonForm}>Enviar</button>
       </form>
       <ToastContainer/>
     </div>

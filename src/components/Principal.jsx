@@ -39,7 +39,7 @@ const Principal = () => {
     <div>
       <Fade>
         <header>
-          <ToastContainer className={s.medida} />
+          <ToastContainer/>
           <Animacion />
         </header>
       </Fade>
