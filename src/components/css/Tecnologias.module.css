@@ -1,7 +1,7 @@
 .Canvas{
     width:200px;
     height: 200px;
-    background-color:rgb(0, 0, 0);
+    background-color:#060606;
     border-radius:30px;
 }
 
@@ -20,9 +20,3 @@
     font-size: 1.8em;
 
 }
-/* 
-@media  screen and (max-width: 550px) {
-    .container{
-        height:300px;
-    }
-} */
