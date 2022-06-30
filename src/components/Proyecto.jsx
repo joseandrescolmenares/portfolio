@@ -13,11 +13,11 @@ const Proyecto = () => {
         <div className={s.Proye}>
           <img className={s.img} src={country} alt="imf" />
           <p className={s.parra}>
-            Desarrolle una App Countrys que incluye: búsquedas, filtrados,
-            ordenamientos y creación, Usa datos traídos desde una api externa y
-            también desde su propia base de datos. Desarrolle la app usando para
-            el frontend: React, Redux, CSS puro y para el backend : en Node.js
-            con Express. Base de datos en PostgreSQL y Sequelize.
+            Desarrollé una App Countries que incluye: búsquedas, filtrados,
+            ordenamientos y creación, Usa datos traídos desde una API externa y
+            también desde su propia base de datos. Desarrollé la App usando para
+            el Frontend: React, Redux y CSS puro, y para el Backend : Node.js
+            con Express, Base de datos en PostgreSQL y Sequelize.
           </p>
           <div className={s.botones}>
             <a
@@ -59,14 +59,14 @@ const Proyecto = () => {
 
         <div className={s.Proye}>
           {" "}
-          <img className={s.unicaImg} src={recipe} alt="imf" />
+          <img className={s.img} src={recipe} alt="imf" />
           <p className={s.parra}>
-            se trata de una SPA, utilizando React para el Front Ent y Redux como
-            state management. la SPA consume datos de una API a través de un
+            Se trata de una SPA, utilizando React y Redux para el Front End.
+            La SPA consume datos de una API a través de un
             Back End desarrollado en Node.js utilizando Express, agregando
             nuevas funcionalidades a la API original. Algunos features del
-            proyecto: Cache de busquedas, ordenamiento y filtros, formularios
-            controlado para creacion de recetas.
+            proyecto: Cache de búsquedas, ordenamiento y filtros, formularios
+            controlados.
           </p>
           <div className={s.botones}>
             <a
@@ -104,7 +104,7 @@ const Proyecto = () => {
         <div className={s.Proye}>
           <img className={s.img} src={finder} alt="img" />
           <p className={s.parra}>
-            Esta aplicacion fue Desarrollada por 7 integrantes, trabajando con
+            Esta aplicación fue Desarrollada por 7 integrantes, trabajando con
             metodología ágil Scrum, con Sprints semanales y presentaciones con
             Product Owner. Uso de tecnología React, Redux, Material UI para el
             front-end; NodeJS con Express para el back-end; PostgreSQL,
